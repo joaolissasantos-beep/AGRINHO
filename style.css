@@ -1,1 +1,82 @@
+/* Paleta: verde, marrom, bege e tons naturais */
 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f1e8;
+  color: #2f3e2f;
+}
+
+header {
+  background-color: #3b6b35;
+  color: white;
+  text-align: center;
+  padding: 30px 15px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+section {
+  background: #ffffff;
+  margin: 15px 0;
+  padding: 20px;
+  border-left: 6px solid #6b4f2a;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #3b6b35;
+}
+
+.quiz {
+  text-align: center;
+  padding: 10px;
+}
+
+button {
+  background-color: #3b6b35;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #2f5229;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #6b4f2a;
+  color: white;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  main {
+    padding: 10px;
+  }
+
+  section {
+    padding: 15px;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
